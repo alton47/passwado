@@ -24,7 +24,7 @@ export function getPasswordStrength(options: {
 
 
   // 🔥 MAX HEAT MODE
-  if (length === 25 && varietyCount === 4) {
+  if (length === 20 && varietyCount === 4) {
     return {
       label: "INSANE",
       color: "purple",
