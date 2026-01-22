@@ -28,7 +28,7 @@ export function getPasswordStrength(options: {
     return {
       label: "INSANE",
       color: "purple",
-      message: "🔥 MAXIMUM HEAT MODE. This thing is uncrackable.",
+      message: "MAXIMUM HEAT MODE. This thing is uncrackable. 🔥",
       emoji: "🔥",
       isFire: true,
     };
@@ -47,7 +47,7 @@ export function getPasswordStrength(options: {
     return {
       label: "Weak",
       color: "red",
-      message: "💀 This password will get cooked instantly.",
+      message: "This password will get cooked instantly. 💀",
       emoji: "💀",
       isFire: false,
     };
@@ -57,7 +57,7 @@ export function getPasswordStrength(options: {
     return {
       label: "Moderate",
       color: "yellow",
-      message: "😐 Not bad, but not Fort Knox either.",
+      message: "Not bad, but not Fort Knox either. 😐",
       emoji: "😐",
       isFire: false,
     };
@@ -67,7 +67,7 @@ export function getPasswordStrength(options: {
     return {
       label: "Strong",
       color: "green",
-      message: "💪 Pretty solid. You're safe.",
+      message: "Pretty solid. You're safe. 💪",
       emoji: "💪",
       isFire: false,
     };
@@ -76,7 +76,7 @@ export function getPasswordStrength(options: {
   return {
     label: "Very Strong",
     color: "green",
-    message: "🛡️ This is extremely hard to crack.",
+    message: "This is extremely hard to crack. 🛡️",
     emoji: "🛡️",
     isFire: false,
   };
