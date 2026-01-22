@@ -105,7 +105,7 @@ export default function Home() {
               <input
                 type="range"
                 min={4}
-                max={25}
+                max={20}
                 value={length}
                 onChange={(e) => setLength(Number(e.target.value))}
                 className="w-full accent-black"
