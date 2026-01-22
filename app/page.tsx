@@ -17,7 +17,7 @@ export default function Home() {
   const [copied, setCopied] = useState(false);
   
   const min = 4;
-  const max = 25;
+  const max = 21;
 
   function regenerate() {
     const pwd = generatePassword({
@@ -112,7 +112,7 @@ export default function Home() {
               <div>
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-sm font-medium text-gray-800">Password length</span>
-                  <span className="text-sm font-medium">{length} {length === 25 && uppercase && lowercase && numbers && symbols ? "🔥" : ""}</span>
+                  <span className="text-sm font-medium">{length} {length === 21 && uppercase && lowercase && numbers && symbols ? "🔥" : ""}</span>
                 </div>
                 
                 <div className="relative flex items-center h-6">

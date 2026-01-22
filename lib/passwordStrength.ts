@@ -28,7 +28,7 @@ export function getPasswordStrength(options: {
     return {
       label: "INSANE",
       color: "purple",
-      message: "MAXIMUM HEAT MODE. This thing is uncrackable. 🔥",
+      message: "MAXIMUM HEAT MODE. This is uncrackable. 🔥",
       emoji: "🔥",
       isFire: true,
     };
