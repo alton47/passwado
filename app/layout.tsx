@@ -17,14 +17,14 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Passwado — Password Generator",
   description:
-    "Generate beautiful, strong, modern passwords with Passwado.",
+    "The Last Password Generator you'll ever Need!!",
   keywords: ["password", "generator", "security", "passwado"],
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
     title: "Passwado",
-    description: "A beautiful modern password generator.",
+    description: "The password generator to end them all!!",
     type: "website",
   },
 };
