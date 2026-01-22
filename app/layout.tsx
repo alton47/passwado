@@ -14,18 +14,28 @@ const jetbrains = JetBrains_Mono({
   display: "swap",
 });
 
+// Update this part specifically
 export const metadata: Metadata = {
   title: "Passwado — Password Generator",
-  description:
-    "The Last Password Generator you'll ever Need!!",
+  description: "The Last Password Generator you'll ever Need!!",
   keywords: ["password", "generator", "security", "passwado"],
   icons: {
-    icon: "/favicon.svg",
+    // We prepend the repo name so GitHub Pages can find it
+    icon: "/passwado/favicon.svg",
+    shortcut: "/passwado/favicon.svg",
+    apple: "/passwado/favicon.svg",
   },
   openGraph: {
     title: "Passwado",
     description: "The password generator to end them all!!",
     type: "website",
+    images: [
+      {
+        url: "/passwado/og-image.png", 
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
 };
 
@@ -36,9 +46,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} ${jetbrains.variable} font-sans antialiased`}
-      >
+      <body className={`${inter.variable} ${jetbrains.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>
